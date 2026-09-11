@@ -42,3 +42,11 @@ After passing local QA, create `checkpoint-visual-v1`, merge visual-v1 into main
 ## Remaining client materials
 
 Optional real school photos with publication permission and final logo; current lesson prices/schedule; camp dates, detailed program and cost. The current site intentionally asks users to discuss these with the school. These omissions do not block the demo.
+
+## Production verification — PASS, 11 September 2026
+
+Published URL: https://evsavelev.github.io/teachers-nizhnevartovsk/ . GitHub Pages reports `built`, `build_type: legacy`, source `main` / `/`. Reviewed release `739f32045c6d9cb8eac3df573d11a303025810f1`; subsequent report commit changes documentation/evidence only.
+
+The same six-viewport suite passed **176 checks**, with zero console/page/resource errors and zero axe violations. All site resources and SEO files return 200, a missing route returns 404, menu/CTA/phone/anchor checks pass. Published HTML/CSS/JS/robots/sitemap match local source (normalizing line endings). School JSON-LD verified on the public HTML. Mobile CLS = 0. Production hero and camp screenshots visually reviewed.
+
+Evidence: `verification/production-qa.json`, `verification/production-assets.json`; screenshots in ignored `qa/production/`. MAX retains the documented external 403 limitation; all other official links returned 200. No phone call or message was sent. Checkpoints and visual-v1 are pushed to GitHub.

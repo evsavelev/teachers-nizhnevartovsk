@@ -1,0 +1,27 @@
+[
+  {
+    "file": "index.html",
+    "status": 200,
+    "identicalToLocal": true
+  },
+  {
+    "file": "styles/site.css",
+    "status": 200,
+    "identicalToLocal": true
+  },
+  {
+    "file": "scripts/site.js",
+    "status": 200,
+    "identicalToLocal": true
+  },
+  {
+    "file": "robots.txt",
+    "status": 200,
+    "identicalToLocal": true
+  },
+  {
+    "file": "sitemap.xml",
+    "status": 200,
+    "identicalToLocal": true
+  }
+]

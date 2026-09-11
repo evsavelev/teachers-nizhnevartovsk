@@ -13,3 +13,5 @@
 Локально: `node scripts/serve.cjs`, открыть `http://127.0.0.1:4195/teachers-nizhnevartovsk/`.
 
 Источники — SOURCES.md, визуальные правила — DESIGN.md, проверки — QA.md. ТЗ сохранены в verification. Исходный checkpoint фиксирует вводные нового проекта; разработка — visual-v1, объединение с main только после QA.
+
+Опубликовано и проверено 11.09.2026: шесть размеров экрана, 176 проверок, 0 ошибок консоли и axe. Production-отчёты находятся в verification. Метки `checkpoint-input`, `checkpoint-visual-v1`, `checkpoint-production` сохраняют этапы работы. `.tools/` и `qa/` не входят в репозиторий.
