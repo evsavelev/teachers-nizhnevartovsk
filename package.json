@@ -1,0 +1,8 @@
+{
+  "name": "teachers-nizhnevartovsk",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static Teacher’s demo website; no build required",
+  "scripts": { "start": "node scripts/serve.cjs", "qa": "node scripts/qa.cjs", "og": "node scripts/create-og.cjs" },
+  "devDependencies": { "@playwright/test": "1.58.2", "axe-core": "4.11.0" }
+}

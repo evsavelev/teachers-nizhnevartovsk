@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://t.me/weteacherss",
+    "status": 200,
+    "finalUrl": "https://t.me/weteacherss"
+  },
+  {
+    "url": "https://vk.com/weteacherss",
+    "status": 200,
+    "finalUrl": "https://m.vk.com/weteacherss"
+  },
+  {
+    "url": "https://max.ru/u/f9LHodD0cOKbqmeAsPCAAkktUuZmcRnIX6aOnClHZyPRYWN8usonnDJAXBA",
+    "status": 403,
+    "finalUrl": "https://max.ru/u/f9LHodD0cOKbqmeAsPCAAkktUuZmcRnIX6aOnClHZyPRYWN8usonnDJAXBA"
+  },
+  {
+    "url": "https://2gis.ru/nizhnevartovsk/firm/70000001077212977",
+    "status": 200,
+    "finalUrl": "https://2gis.ru/nizhnevartovsk/firm/70000001077212977"
+  },
+  {
+    "url": "https://2gis.ru/nizhnevartovsk/firm/70000001077212977/tab/reviews",
+    "status": 200,
+    "finalUrl": "https://2gis.ru/nizhnevartovsk/firm/70000001077212977/tab/reviews"
+  }
+]

@@ -1,0 +1,392 @@
+{
+  "date": "2026-09-11T10:41:04.960Z",
+  "base": "http://127.0.0.1:4195/teachers-nizhnevartovsk/",
+  "checks": [
+    "360: HTTP 200",
+    "360: single H1",
+    "360: font loaded",
+    "360: canonical",
+    "360: OG",
+    "360: all four languages",
+    "360: no horizontal overflow",
+    "360: nav initially hidden",
+    "360: menu opens",
+    "360: Escape closes and focuses toggle",
+    "360: nav selection closes menu",
+    "360: scroll 0 within viewport",
+    "360: scroll 1 within viewport",
+    "360: scroll 2 within viewport",
+    "360: scroll 3 within viewport",
+    "360: scroll 4 within viewport",
+    "360: scroll 5 within viewport",
+    "360: scroll 6 within viewport",
+    "360: scroll 7 within viewport",
+    "360: scroll 8 within viewport",
+    "360: scroll 9 within viewport",
+    "360: scroll 10 within viewport",
+    "360: scroll 11 within viewport",
+    "360: scroll 12 within viewport",
+    "360: scroll 13 within viewport",
+    "360: scroll 14 within viewport",
+    "360: scroll 15 within viewport",
+    "360: scroll 16 within viewport",
+    "360: anchors resolve",
+    "360: all enrollment CTA target contacts",
+    "360: correct phone",
+    "360: WCAG A/AA axe",
+    "360: no third-party requests",
+    "390: HTTP 200",
+    "390: single H1",
+    "390: font loaded",
+    "390: canonical",
+    "390: OG",
+    "390: all four languages",
+    "390: no horizontal overflow",
+    "390: nav initially hidden",
+    "390: menu opens",
+    "390: Escape closes and focuses toggle",
+    "390: nav selection closes menu",
+    "390: scroll 0 within viewport",
+    "390: scroll 1 within viewport",
+    "390: scroll 2 within viewport",
+    "390: scroll 3 within viewport",
+    "390: scroll 4 within viewport",
+    "390: scroll 5 within viewport",
+    "390: scroll 6 within viewport",
+    "390: scroll 7 within viewport",
+    "390: scroll 8 within viewport",
+    "390: scroll 9 within viewport",
+    "390: scroll 10 within viewport",
+    "390: scroll 11 within viewport",
+    "390: scroll 12 within viewport",
+    "390: scroll 13 within viewport",
+    "390: scroll 14 within viewport",
+    "390: anchors resolve",
+    "390: all enrollment CTA target contacts",
+    "390: correct phone",
+    "390: WCAG A/AA axe",
+    "390: no third-party requests",
+    "430: HTTP 200",
+    "430: single H1",
+    "430: font loaded",
+    "430: canonical",
+    "430: OG",
+    "430: all four languages",
+    "430: no horizontal overflow",
+    "430: nav initially hidden",
+    "430: menu opens",
+    "430: Escape closes and focuses toggle",
+    "430: nav selection closes menu",
+    "430: scroll 0 within viewport",
+    "430: scroll 1 within viewport",
+    "430: scroll 2 within viewport",
+    "430: scroll 3 within viewport",
+    "430: scroll 4 within viewport",
+    "430: scroll 5 within viewport",
+    "430: scroll 6 within viewport",
+    "430: scroll 7 within viewport",
+    "430: scroll 8 within viewport",
+    "430: scroll 9 within viewport",
+    "430: scroll 10 within viewport",
+    "430: scroll 11 within viewport",
+    "430: scroll 12 within viewport",
+    "430: scroll 13 within viewport",
+    "430: anchors resolve",
+    "430: all enrollment CTA target contacts",
+    "430: correct phone",
+    "430: WCAG A/AA axe",
+    "430: no third-party requests",
+    "768: HTTP 200",
+    "768: single H1",
+    "768: font loaded",
+    "768: canonical",
+    "768: OG",
+    "768: all four languages",
+    "768: no horizontal overflow",
+    "768: desktop menu visible, toggle hidden",
+    "768: scroll 0 within viewport",
+    "768: scroll 1 within viewport",
+    "768: scroll 2 within viewport",
+    "768: scroll 3 within viewport",
+    "768: scroll 4 within viewport",
+    "768: scroll 5 within viewport",
+    "768: scroll 6 within viewport",
+    "768: scroll 7 within viewport",
+    "768: scroll 8 within viewport",
+    "768: anchors resolve",
+    "768: all enrollment CTA target contacts",
+    "768: correct phone",
+    "768: WCAG A/AA axe",
+    "768: no third-party requests",
+    "1024: HTTP 200",
+    "1024: single H1",
+    "1024: font loaded",
+    "1024: canonical",
+    "1024: OG",
+    "1024: all four languages",
+    "1024: no horizontal overflow",
+    "1024: desktop menu visible, toggle hidden",
+    "1024: scroll 0 within viewport",
+    "1024: scroll 1 within viewport",
+    "1024: scroll 2 within viewport",
+    "1024: scroll 3 within viewport",
+    "1024: scroll 4 within viewport",
+    "1024: scroll 5 within viewport",
+    "1024: scroll 6 within viewport",
+    "1024: scroll 7 within viewport",
+    "1024: scroll 8 within viewport",
+    "1024: scroll 9 within viewport",
+    "1024: anchors resolve",
+    "1024: all enrollment CTA target contacts",
+    "1024: correct phone",
+    "1024: WCAG A/AA axe",
+    "1024: no third-party requests",
+    "1440: HTTP 200",
+    "1440: single H1",
+    "1440: font loaded",
+    "1440: canonical",
+    "1440: OG",
+    "1440: all four languages",
+    "1440: no horizontal overflow",
+    "1440: desktop menu visible, toggle hidden",
+    "1440: scroll 0 within viewport",
+    "1440: scroll 1 within viewport",
+    "1440: scroll 2 within viewport",
+    "1440: scroll 3 within viewport",
+    "1440: scroll 4 within viewport",
+    "1440: scroll 5 within viewport",
+    "1440: scroll 6 within viewport",
+    "1440: scroll 7 within viewport",
+    "1440: scroll 8 within viewport",
+    "1440: anchors resolve",
+    "1440: all enrollment CTA target contacts",
+    "1440: correct phone",
+    "1440: WCAG A/AA axe",
+    "1440: no third-party requests",
+    "reduced motion: no pending/hidden reveals",
+    "reduced motion: instant scrolling",
+    "CTA reaches contacts",
+    "no-JS: nav available",
+    "no-JS: content visible",
+    "resource styles/site.css: HTTP 200",
+    "resource scripts/site.js: HTTP 200",
+    "resource assets/images/favicon.svg: HTTP 200",
+    "resource assets/images/og.png: HTTP 200",
+    "resource robots.txt: HTTP 200",
+    "robots sitemap URL",
+    "resource sitemap.xml: HTTP 200",
+    "sitemap canonical",
+    "missing page HTTP 404",
+    "no console / page / resource errors"
+  ],
+  "errors": [],
+  "accessibility": [
+    {
+      "width": 360,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "violations": []
+    },
+    {
+      "width": 430,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "violations": []
+    },
+    {
+      "width": 1024,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "violations": []
+    }
+  ],
+  "metrics": [
+    {
+      "width": 360,
+      "cls": 0,
+      "lcp": 1068,
+      "resources": [
+        {
+          "name": "inter-cyrillic.woff2",
+          "size": 18748
+        },
+        {
+          "name": "site.css",
+          "size": 31250
+        },
+        {
+          "name": "site.js",
+          "size": 1878
+        },
+        {
+          "name": "inter-latin.woff2",
+          "size": 48256
+        },
+        {
+          "name": "favicon.svg",
+          "size": 216
+        },
+        {
+          "name": "favicon.svg",
+          "size": 216
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "cls": 0,
+      "lcp": 1080,
+      "resources": [
+        {
+          "name": "inter-cyrillic.woff2",
+          "size": 18748
+        },
+        {
+          "name": "site.css",
+          "size": 31250
+        },
+        {
+          "name": "site.js",
+          "size": 1878
+        },
+        {
+          "name": "inter-latin.woff2",
+          "size": 48256
+        },
+        {
+          "name": "favicon.svg",
+          "size": 216
+        },
+        {
+          "name": "favicon.svg",
+          "size": 216
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "cls": 0,
+      "lcp": 1120,
+      "resources": [
+        {
+          "name": "inter-cyrillic.woff2",
+          "size": 18748
+        },
+        {
+          "name": "site.css",
+          "size": 31250
+        },
+        {
+          "name": "site.js",
+          "size": 1878
+        },
+        {
+          "name": "inter-latin.woff2",
+          "size": 48256
+        },
+        {
+          "name": "favicon.svg",
+          "size": 216
+        },
+        {
+          "name": "favicon.svg",
+          "size": 216
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "cls": 0.00005684798816218972,
+      "lcp": 1140,
+      "resources": [
+        {
+          "name": "inter-cyrillic.woff2",
+          "size": 18748
+        },
+        {
+          "name": "site.css",
+          "size": 31250
+        },
+        {
+          "name": "site.js",
+          "size": 1878
+        },
+        {
+          "name": "inter-latin.woff2",
+          "size": 48256
+        },
+        {
+          "name": "favicon.svg",
+          "size": 216
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "cls": 0.0000685572624206543,
+      "lcp": 2776,
+      "resources": [
+        {
+          "name": "inter-cyrillic.woff2",
+          "size": 18748
+        },
+        {
+          "name": "site.css",
+          "size": 31250
+        },
+        {
+          "name": "site.js",
+          "size": 1878
+        },
+        {
+          "name": "inter-latin.woff2",
+          "size": 48256
+        },
+        {
+          "name": "favicon.svg",
+          "size": 216
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "cls": 0.0007122853597005208,
+      "lcp": 1144,
+      "resources": [
+        {
+          "name": "inter-cyrillic.woff2",
+          "size": 18748
+        },
+        {
+          "name": "site.css",
+          "size": 31250
+        },
+        {
+          "name": "site.js",
+          "size": 1878
+        },
+        {
+          "name": "inter-latin.woff2",
+          "size": 48256
+        },
+        {
+          "name": "favicon.svg",
+          "size": 216
+        }
+      ]
+    }
+  ],
+  "links": [
+    "https://2gis.ru/nizhnevartovsk/firm/70000001077212977",
+    "https://2gis.ru/nizhnevartovsk/firm/70000001077212977/tab/reviews",
+    "https://t.me/weteacherss",
+    "https://vk.com/weteacherss",
+    "https://max.ru/u/f9LHodD0cOKbqmeAsPCAAkktUuZmcRnIX6aOnClHZyPRYWN8usonnDJAXBA"
+  ]
+}
