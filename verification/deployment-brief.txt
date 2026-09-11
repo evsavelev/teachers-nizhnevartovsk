@@ -1,0 +1,250 @@
+ВАЖНО: РАБОЧЕЕ ОКРУЖЕНИЕ И ПУБЛИКАЦИЯ
+
+Это новый отдельный проект Teacher’s.
+
+ЛОКАЛЬНАЯ ПАПКА
+
+Рабочий проект должен находиться здесь:
+
+C:\LANDINGS\teachers-nizhnevartovsk
+
+Все файлы сайта должны лежать непосредственно внутри этой папки.
+
+Главный файл:
+
+C:\LANDINGS\teachers-nizhnevartovsk\index.html
+
+Не создавать лишнюю вложенность вида:
+
+C:\LANDINGS\teachers-nizhnevartovsk\teachers-nizhnevartovsk\index.html
+
+Это неправильно.
+
+Правильная структура примерно такая:
+
+C:\LANDINGS\teachers-nizhnevartovsk
+│
+├── index.html
+├── DESIGN.md
+├── SOURCES.md
+├── QA.md
+├── README.md
+├── robots.txt
+├── sitemap.xml
+├── .nojekyll
+│
+├── assets
+│   ├── images
+│   ├── fonts
+│   └── ...
+│
+├── styles
+│   └── ...
+│
+└── scripts
+└── ...
+
+Если CSS и JS находятся внутри index.html, искусственно выносить их в отдельные файлы только ради структуры не требуется.
+
+ИСХОДНЫЙ ДЕМО-ПРОЕКТ
+
+Исходная версия Teacher’s уже подготовлена ранее.
+
+Если в C:\LANDINGS\teachers-nizhnevartovsk уже находятся файлы проекта — сначала изучи их и продолжай работу с ними.
+
+Не создавай параллельно второй проект.
+
+Не удаляй подтверждённый контент, SOURCES.md, DESIGN.md и QA.md без причины.
+
+Если папка ещё не создана, создать:
+
+C:\LANDINGS\teachers-nizhnevartovsk
+
+и разместить проект именно там.
+
+GIT
+
+В папке проекта должен быть отдельный Git-репозиторий.
+
+Репозиторий клиента:
+
+https://github.com/evsavelev/teachers-nizhnevartovsk
+
+Имя:
+
+teachers-nizhnevartovsk
+
+Owner:
+
+evsavelev
+
+Ветка публикации:
+
+main
+
+Если репозитория GitHub ещё не существует и GitHub CLI авторизован, создать публичный репозиторий:
+
+gh repo create evsavelev/teachers-nizhnevartovsk --public --source=. --remote=origin
+
+Если репозиторий уже существует — не создавать его повторно.
+
+Проверить remote:
+
+git remote -v
+
+origin должен вести на:
+
+https://github.com/evsavelev/teachers-nizhnevartovsk.git
+
+CHECKPOINT
+
+Сначала сохранить исходную рабочую версию.
+
+После этого существенный визуальный редизайн выполнять в отдельной ветке, например:
+
+visual-v1
+
+Не делать большой экспериментальный редизайн непосредственно в main.
+
+После завершения:
+— desktop QA;
+— mobile QA;
+— проверка консоли;
+— проверка ссылок;
+— SEO-проверка;
+— только после этого объединить проверенную версию с main.
+
+ПУБЛИКАЦИЯ GITHUB PAGES
+
+Использовать такую же схему, как в остальных статических проектах Евгения.
+
+GitHub Pages:
+
+Branch:
+main
+
+Folder:
+/ (root)
+
+То есть index.html должен находиться непосредственно в корне репозитория.
+
+НЕ создавать GitHub Actions workflow для простой публикации этого статического сайта.
+
+НЕ нужен файл:
+
+.github/workflows/pages.yml
+
+НЕ нужен deploy.yml.
+
+НЕ нужен другой YAML workflow, если для этого не появляется отдельная техническая необходимость.
+
+В корне проекта создать пустой файл:
+
+.nojekyll
+
+GitHub Pages должен публиковать содержимое main непосредственно из корня репозитория.
+
+КОНЕЧНЫЙ URL ДЕМО-САЙТА
+
+После включения GitHub Pages сайт должен открываться здесь:
+
+https://evsavelev.github.io/teachers-nizhnevartovsk/
+
+Это основной публичный URL демо Teacher’s.
+
+РЕПОЗИТОРИЙ
+
+Публичная ссылка на исходники:
+
+https://github.com/evsavelev/teachers-nizhnevartovsk
+
+SEO-URL
+
+После публикации использовать именно публичный URL GitHub Pages в:
+
+canonical
+
+og:url
+
+sitemap.xml
+
+robots.txt
+
+Schema.org / JSON-LD, где необходим URL сайта.
+
+Canonical для главной:
+
+https://evsavelev.github.io/teachers-nizhnevartovsk/
+
+Sitemap:
+
+https://evsavelev.github.io/teachers-nizhnevartovsk/sitemap.xml
+
+В robots.txt:
+
+User-agent: *
+Allow: /
+
+Sitemap: https://evsavelev.github.io/teachers-nizhnevartovsk/sitemap.xml
+
+README
+
+В README.md обязательно записать:
+
+Teacher’s — школа иностранных языков, Нижневартовск
+
+Демо-сайт:
+https://evsavelev.github.io/teachers-nizhnevartovsk/
+
+Репозиторий:
+https://github.com/evsavelev/teachers-nizhnevartovsk
+
+Локальный проект:
+C:\LANDINGS\teachers-nizhnevartovsk
+
+Публикация:
+GitHub Pages → main → /(root)
+
+ЗАГРУЗКА
+
+После QA:
+
+git add .
+git commit -m "Build Teacher's demo website"
+git push
+
+Если работа выполнялась в отдельной ветке — сначала сохранить её отдельным коммитом, провести QA, затем корректно объединить с main и выполнить push main.
+
+ФИНАЛЬНАЯ ПРОВЕРКА
+
+После публикации ОБЯЗАТЕЛЬНО проверить именно рабочий URL:
+
+https://evsavelev.github.io/teachers-nizhnevartovsk/
+
+Проверить:
+— HTTP 200;
+— desktop;
+— mobile;
+— загрузку CSS;
+— загрузку JS;
+— изображения;
+— кнопки;
+— телефон;
+— Telegram;
+— VK;
+— MAX, если используется;
+— 2ГИС;
+— якоря;
+— отсутствие 404;
+— отсутствие ошибок консоли;
+— canonical;
+— robots.txt;
+— sitemap.xml.
+
+Не считать работу завершённой только после git push.
+
+Работа завершена только после проверки опубликованного сайта.
+
+ДАЛЕЕ ВЫПОЛНИ ПОЛНЫЙ ВИЗУАЛЬНЫЙ РЕДИЗАЙН ПО ТЗ НИЖЕ.
+
+[Далее сохранить всё предыдущее ТЗ по дизайну Teacher’s без изменений.]
