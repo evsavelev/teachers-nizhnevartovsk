@@ -1,0 +1,8 @@
+const {chromium}=require('@playwright/test');
+(async()=>{const browser=await chromium.launch({channel:'chrome'});try{
+  const page=await browser.newPage({viewport:{width:1200,height:630},deviceScaleFactor:1});
+  await page.goto('http://127.0.0.1:4195/teachers-nizhnevartovsk/');
+  await page.setContent(`<html lang="ru"><head><link rel="stylesheet" href="http://127.0.0.1:4195/teachers-nizhnevartovsk/styles/site.css"><style>body{width:1200px;height:630px;overflow:hidden;background:#ff8eb5;padding:45px 54px;position:relative}.brand{font-size:45px}h1{font-size:65px;line-height:1.04;margin-top:58px;max-width:720px}.info{position:absolute;bottom:46px;font-size:20px}.art{position:absolute;right:45px;top:128px;width:320px;height:330px;background:#17171c;color:white;padding:28px;border-radius:6px;transform:rotate(5deg)}.hello{display:block;color:#a8ccff;font-size:76px;letter-spacing:-.07em;line-height:1.15}.nihao{display:block;color:#ffdf3d;font-size:71px;margin-top:8px}.rest{display:block;font-size:32px;letter-spacing:-.04em;margin-top:14px}.tag{font-size:12px;letter-spacing:.08em;position:absolute;right:54px;bottom:50px}</style></head><body><div class="brand">teacher’s.</div><h1>Иностранные языки.<br>Для детей<br>и взрослых.</h1><p class="info">Нижневартовск + онлайн</p><div class="art"><strong class="hello">Hello!</strong><span class="nihao">你好</span><span class="rest">Hallo. Bonjour.</span></div><span class="tag">EN / 中文 / DE / FR</span></body></html>`);
+  await page.evaluate(()=>document.fonts.ready);
+  await page.screenshot({path:'assets/images/og.png'});
+}finally{await browser.close()}})().catch(e=>{console.error(e);process.exit(1)});
